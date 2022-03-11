@@ -4,10 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24114583333333334" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/bugger.xml" value="0.13802083333333334" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/circle.xml" value="0.13802083333333334" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/ic_email.xml" value="0.13802083333333334" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/ic_icons8_facebook.xml" value="0.13802083333333334" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24114583333333334" />
-        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/tab_indicator.xml" value="0.13802083333333334" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/activity_onboarding.xml" value="0.2" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/login.xml" value="0.176" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/signup.xml" value="0.176" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/tab_indicator.xml" value="0.12360688956433637" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/verification.xml" value="0.176" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/welcome.xml" value="0.1480978260869565" />
       </map>
     </option>
   </component>
@@ -20,7 +29,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.176" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>

@@ -9,6 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tuan1">
+
+        <activity
+            android:name=".Onboarding"
+            android:exported="true" />
+        <activity
+            android:name=".Verification"
+            android:exported="true" />
+        <activity
+            android:name=".Signup"
+            android:exported="true" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
