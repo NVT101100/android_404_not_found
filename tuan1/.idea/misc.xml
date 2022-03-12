@@ -9,7 +9,6 @@
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/ic_email.xml" value="0.13802083333333334" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/ic_icons8_facebook.xml" value="0.13802083333333334" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24114583333333334" />
-<<<<<<< HEAD
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/drawable/tab_indicator.xml" value="0.13802083333333334" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/activity_onboarding.xml" value="0.2" />
@@ -18,10 +17,10 @@
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/tab_indicator.xml" value="0.12360688956433637" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/verification.xml" value="0.176" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/welcome.xml" value="0.1480978260869565" />
-=======
+
         <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan1/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/NVT/LT/Android/test/tuan1/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
->>>>>>> bb9ae2ba19d53e903c4bf944b0c33f1a887f7db5
+
       </map>
     </option>
   </component>
