@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tuan1">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".Singup"
             android:exported="true" />
         <activity
