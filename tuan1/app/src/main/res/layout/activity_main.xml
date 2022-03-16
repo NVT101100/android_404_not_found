@@ -42,5 +42,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="OnBoarding One" />
+        <Button
+            android:id="@+id/btnWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

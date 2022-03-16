@@ -12,9 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val wcLayout = Intent(this,Welcome::class.java);
-        val lglayout = Intent(this,Signup::class.java);
+        val lglayout = Intent(this,Singup::class.java);
         val vclayout = Intent(this,Verification::class.java);
         val boardlayout = Intent(this,Onboarding::class.java);
+        val loginlayout = Intent(this,login::class.java)
 
         var btnWC : Button = findViewById(R.id.btnWelcome);
         var btnSU : Button = findViewById(R.id.btnSignup);
@@ -24,29 +25,31 @@ class MainActivity : AppCompatActivity() {
 
         btnWC.setOnClickListener(object : View.OnClickListener{
             override fun onClick(p0: View?) {
-                finish();
                 startActivity(wcLayout);
             }
         })
 
         btnSU.setOnClickListener(object : View.OnClickListener{
             override fun onClick(p0: View?) {
-                finish();
                 startActivity(lglayout);
             }
         })
 
         btnVC.setOnClickListener(object : View.OnClickListener{
             override fun onClick(p0: View?) {
-                finish();
                 startActivity(vclayout);
             }
         })
 
         btnOB.setOnClickListener(object : View.OnClickListener{
             override fun onClick(p0: View?) {
-                finish();
                 startActivity(boardlayout);
+            }
+        })
+
+        btnLG.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(p0: View?) {
+                startActivity(loginlayout);
             }
         })
     }

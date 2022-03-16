@@ -16,16 +16,10 @@
             android:name=".login"
             android:exported="false" />
         <activity
-            android:name=".signup"
-            android:exported="false" />
-        <activity
             android:name=".Verification"
             android:exported="false" />
         <activity
             android:name=".Onboarding"
-            android:exported="true" />
-        <activity
-            android:name=".Signup"
             android:exported="true" />
         <activity
             android:name=".Welcome"
