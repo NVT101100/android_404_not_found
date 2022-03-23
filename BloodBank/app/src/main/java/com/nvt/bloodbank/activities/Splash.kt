@@ -36,7 +36,7 @@ class Splash : AppCompatActivity() {
                 startActivity(mainActivity);
             }
         }
-        handler.postDelayed(runnable,6000);
+        handler.postDelayed(runnable,2000);
     }
 
     @RequiresApi(Build.VERSION_CODES.R)

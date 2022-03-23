@@ -7,27 +7,26 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
-import android.view.LayoutInflater
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
-import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.nvt.bloodbank.R
 import com.nvt.bloodbank.models.Users
 import java.util.regex.Pattern
 import java.util.regex.Matcher
-
+import com.nvt.bloodbank.Constants
 
 
 
 class Signup : AppCompatActivity() {
     private lateinit var newAuth : FirebaseAuth
     private var users : Users = Users()
+    private val database : FirebaseDatabase = Firebase.database(Constants.databaseURL)
     override fun onCreate(savedInstanceState: Bundle?) {
         newAuth = Firebase.auth
 
@@ -37,7 +36,6 @@ class Signup : AppCompatActivity() {
         val passEditText : EditText = findViewById(R.id.passwordSigup)
         val repassEditText :EditText = findViewById(R.id.rePasswordSigup)
         val signupBtn : Button = findViewById(R.id.btnSignup)
-        val actvLogin = Intent(this,Login::class.java)
 
         var dialog = Dialog(this)
         var view = layoutInflater.inflate(R.layout.loading,null)
@@ -56,11 +54,11 @@ class Signup : AppCompatActivity() {
                                 Toast.LENGTH_SHORT).show()
                             newAuth.currentUser?.sendEmailVerification()
                             dialog.dismiss()
-                            startActivity(actvLogin)
-                            finish()
+                            createNewUser(newAuth.currentUser?.uid.toString());
                         } else {
                             Toast.makeText(this, "Authentication failed.",
                                 Toast.LENGTH_SHORT).show()
+                            dialog.dismiss()
                         }
                     }
             }
@@ -99,6 +97,11 @@ class Signup : AppCompatActivity() {
             Toast.makeText(context,"Please enter an Email",Toast.LENGTH_SHORT).show()
             return false
         }
+    }
+    private fun createNewUser(Uid:String){
+        database.reference.child("users").child(Uid).setValue(users)
+        startActivity(Intent(this,Login::class.java));
+        finish()
     }
 
 }
