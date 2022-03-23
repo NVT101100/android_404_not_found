@@ -2538,6 +2538,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable camera
 drawable circle
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2621,8 +2622,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile
 drawable red_button_bg
 drawable spalsh_animation
+drawable spinner_background
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2700,6 +2703,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addressProfile
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2854,6 +2858,7 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id idProfile
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2942,6 +2947,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameProfile
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3037,6 +3043,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -3056,7 +3063,9 @@ id staticPostLayout
 id stop
 id stretch
 id submenuarrow
+id submitProfile
 id submit_area
+id summaryProfile
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
