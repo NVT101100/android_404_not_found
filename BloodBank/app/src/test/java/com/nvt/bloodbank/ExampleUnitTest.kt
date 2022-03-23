@@ -1,4 +1,4 @@
-package com.nvt.tuan2
+package com.nvt.bloodbank
 
 import org.junit.Test
 
