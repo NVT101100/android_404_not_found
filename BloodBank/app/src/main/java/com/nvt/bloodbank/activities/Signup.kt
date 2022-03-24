@@ -25,7 +25,7 @@ import com.nvt.bloodbank.Constants
 
 class Signup : AppCompatActivity() {
     private lateinit var newAuth : FirebaseAuth
-    private var users : Users = Users()
+    private lateinit var users : Users
     private val database : FirebaseDatabase = Firebase.database(Constants.databaseURL)
     override fun onCreate(savedInstanceState: Bundle?) {
         newAuth = Firebase.auth

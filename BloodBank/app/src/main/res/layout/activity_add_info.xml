@@ -2,15 +2,17 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="info"
+            type="com.nvt.bloodbank.models.InfoModel" />
+    </data>
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.AddInfo"
     android:gravity="center"
     android:background="#99ff0000">
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="700dp"
@@ -19,6 +21,13 @@
         android:orientation="vertical"
         android:overScrollMode="always"
         android:isScrollContainer="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +74,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/corner_radius_10dp"
                 android:maxLines="1"
-                android:inputType="textEmailAddress"/>
+                android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
         <TextView
             android:id="@+id/textView3"
@@ -103,6 +112,7 @@
                 android:gravity="center_vertical"/>
 
             <com.google.android.material.slider.Slider
+                android:id="@+id/ageProfile"
                 android:layout_width="230dp"
                 android:layout_height="match_parent"
                 android:valueFrom="1"
@@ -127,20 +137,24 @@
                 android:text="Gender"/>
 
             <RadioGroup
+                android:id="@+id/genderGroup"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <RadioButton
+                    android:id="@+id/male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Male"
                     android:layout_marginLeft="10dp"/>
                 <RadioButton
+                    android:id="@+id/female"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Female"
                     android:layout_marginLeft="10dp"/>
                 <RadioButton
+                    android:id="@+id/other"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Other"
@@ -163,9 +177,18 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/spinner"
                 android:layout_width="100dp"
-                android:layout_height="30dp"
-                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
-                android:background="@drawable/spinner_background"/>
+                android:layout_height="wrap_content"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeColor="@color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/optionView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:text="A+"/>
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
         <TextView
             android:id="@+id/textView4"
@@ -202,6 +225,7 @@
                 android:gravity="center_vertical"/>
 
             <com.google.android.material.slider.Slider
+                android:id="@+id/donatedProfile"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:valueFrom="0"
@@ -243,8 +267,9 @@
             android:backgroundTint="#992c03fc"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"/>
-    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
+    </LinearLayout>
 
 </LinearLayout>
 </layout>

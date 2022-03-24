@@ -1,6 +1,6 @@
 package com.nvt.bloodbank.models
 enum class Group(val group: Int) {
-    default(0),
+    Default(0),
     Apositive(1),
     Anegative(2),
     Bpositive(3),
@@ -13,9 +13,9 @@ enum class Group(val group: Int) {
     RhDnegative(10)
 
 }
-class Blood {
-    var bloodGroup : Group? = Group.default
-    var summary : String? = null
+class Blood(bloodGroup:Group,summary:String,goodHeal:Boolean,donated:Int) {
+    var bloodGroup : Group = bloodGroup
+    var summary : String = summary
     var goodHealth : Boolean = true
     var donated : Int = 0
 }
