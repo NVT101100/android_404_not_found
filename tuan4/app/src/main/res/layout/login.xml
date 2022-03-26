@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_signup"
     android:orientation="vertical"
     tools:context=".Login">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,14 +55,6 @@
                 android:backgroundTint="@color/white"
                 android:hint="Your email or phone" />
         </com.google.android.material.textfield.TextInputLayout>
-        <TextView
-            android:id="@+id/errEmailLG"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#ffff0000"
-            android:text=""
-            android:layout_marginLeft="20dp"
-            android:visibility="gone"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -88,14 +78,6 @@
                 android:backgroundTint="@color/white"
                 android:hint="Password" />
         </com.google.android.material.textfield.TextInputLayout>
-        <TextView
-            android:id="@+id/errPassLG"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#ffff0000"
-            android:text=""
-            android:layout_marginLeft="20dp"
-            android:visibility="gone"/>
 
 
         <TextView
@@ -198,4 +180,3 @@
     </LinearLayout>
 
 </LinearLayout>
-</layout>

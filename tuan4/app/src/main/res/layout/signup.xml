@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-    <data>
-
-    </data>
-<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Signup">
@@ -65,19 +61,10 @@
                 app:boxStrokeWidth="0dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signupName"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
-            <TextView
-                android:id="@+id/errName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ffff0000"
-                android:text=""
-                android:layout_marginLeft="20dp"
-                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/textView9"
@@ -98,19 +85,10 @@
                 app:boxStrokeWidth="0dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signupEmail"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
-            <TextView
-                android:id="@+id/errEmail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ffff0000"
-                android:text=""
-                android:layout_marginLeft="20dp"
-                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/textView10"
@@ -132,22 +110,13 @@
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signupPassword"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
-            <TextView
-                android:id="@+id/errPassword"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ffff0000"
-                android:text=""
-                android:layout_marginLeft="20dp"
-                android:visibility="gone"/>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnSignup"
+                android:id="@+id/button8"
                 android:layout_width="118dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -221,4 +190,3 @@
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
-</layout>
