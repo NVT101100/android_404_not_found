@@ -7,21 +7,26 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.gms.maps.MapView;
 import com.nvt.bloodbank.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
 
 public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final MapView rootView;
 
-  private ActivityMapsBinding(@NonNull View rootView) {
+  @NonNull
+  public final MapView ggmap;
+
+  private ActivityMapsBinding(@NonNull MapView rootView, @NonNull MapView ggmap) {
     this.rootView = rootView;
+    this.ggmap = ggmap;
   }
 
   @Override
   @NonNull
-  public View getRoot() {
+  public MapView getRoot() {
     return rootView;
   }
 
@@ -46,6 +51,8 @@ public final class ActivityMapsBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivityMapsBinding(rootView);
+    MapView ggmap = (MapView) rootView;
+
+    return new ActivityMapsBinding((MapView) rootView, ggmap);
   }
 }

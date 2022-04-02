@@ -20,7 +20,8 @@ import com.nvt.bloodbank.models.Users
 import java.util.regex.Pattern
 import java.util.regex.Matcher
 import com.nvt.bloodbank.Constants
-
+import com.nvt.bloodbank.models.Blood
+import com.nvt.bloodbank.models.Group
 
 
 class Signup : AppCompatActivity() {
@@ -99,6 +100,7 @@ class Signup : AppCompatActivity() {
         }
     }
     private fun createNewUser(Uid:String){
+        users = Users("",0,"","","","", Blood(Group.Default,"",true,0))
         database.reference.child("users").child(Uid).setValue(users)
         startActivity(Intent(this,Login::class.java));
         finish()

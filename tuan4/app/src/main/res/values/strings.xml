@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">tuan2</string>
+    <string name="app_name">tuan4</string>
     <string name="underline">
         <u>Sign in</u>
     </string>
+    <string name="title_activity_list_restaurant">ListRestaurant</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

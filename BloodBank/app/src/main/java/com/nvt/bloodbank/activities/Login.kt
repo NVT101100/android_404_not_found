@@ -71,7 +71,7 @@ class Login : AppCompatActivity() {
             .child("fullname").get().addOnSuccessListener {
                if(Auth.currentUser != null) {
                    if (Auth.currentUser?.isEmailVerified != null && Auth.currentUser?.isEmailVerified == true) {
-                       if (it.value == null) {
+                       if (it.value == "") {
                            loginStatus = NEW_USER //new user have not any info
                        } else loginStatus = OLD_USER
                    } else loginStatus = UNVERIFIED_USER
@@ -100,7 +100,7 @@ class Login : AppCompatActivity() {
         }
     }
     private fun doLogin() {
-        val actMap = Intent(this,Maps::class.java)
+        val actMain = Intent(this,MainActivity::class.java)
         val actAddInfo = Intent(this,AddInfo::class.java)
         when(loginStatus) {
             RELOAD -> {
@@ -110,7 +110,7 @@ class Login : AppCompatActivity() {
                 startActivity(actAddInfo)
             }
             OLD_USER -> {
-                startActivity(actMap)
+                startActivity(actMain)
             }
             UNVERIFIED_USER -> {
                 Toast.makeText(this,"Accout Unverified",Toast.LENGTH_SHORT).show()

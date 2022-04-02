@@ -41,12 +41,14 @@
             android:layout_gravity="center">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImg"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:src="@drawable/profile" />
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/btnAddImg"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="bottom"
@@ -116,8 +118,10 @@
                 android:layout_width="230dp"
                 android:layout_height="match_parent"
                 android:valueFrom="1"
-                android:valueTo="100" />
+                android:valueTo="100"
+                android:stepSize="1"/>
             <TextView
+                android:id="@+id/ageValue"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -176,7 +180,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/spinner"
-                android:layout_width="100dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 app:boxStrokeWidth="0dp"
                 app:boxStrokeColor="@color/white"

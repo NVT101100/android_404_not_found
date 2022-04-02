@@ -2,14 +2,22 @@ com/nvt/bloodbank/BuildConfig.java
  com.nvt.bloodbank.BuildConfig
 com/nvt/bloodbank/databinding/SplashBinding.java
  com.nvt.bloodbank.databinding.SplashBinding
+com/nvt/bloodbank/databinding/ActivitySearchBloodBinding.java
+ com.nvt.bloodbank.databinding.ActivitySearchBloodBinding
 com/nvt/bloodbank/databinding/ActivityMapsBinding.java
  com.nvt.bloodbank.databinding.ActivityMapsBinding
+com/nvt/bloodbank/databinding/ActivityHomeBinding.java
+ com.nvt.bloodbank.databinding.ActivityHomeBinding
 com/nvt/bloodbank/databinding/ActivityAddInfoBinding.java
  com.nvt.bloodbank.databinding.ActivityAddInfoBinding
 com/nvt/bloodbank/databinding/LoadingBinding.java
  com.nvt.bloodbank.databinding.LoadingBinding
+com/nvt/bloodbank/databinding/SearchBloodItemBinding.java
+ com.nvt.bloodbank.databinding.SearchBloodItemBinding
 com/nvt/bloodbank/databinding/ActivityLoginBinding.java
  com.nvt.bloodbank.databinding.ActivityLoginBinding
+com/nvt/bloodbank/databinding/ActivityMainBinding.java
+ com.nvt.bloodbank.databinding.ActivityMainBinding
 com/nvt/bloodbank/databinding/ActivitySignupBinding.java
  com.nvt.bloodbank.databinding.ActivitySignupBinding
 com/nvt/bloodbank/DataBindingTriggerClass.java

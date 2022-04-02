@@ -1,8 +1,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/option_1"
-        android:title="A+" />
+        android:title="Apositive" />
     <item android:id="@+id/option_2"
-        android:title="A-" />
+        android:title="Anegative" />
     <item android:id="@+id/option_3"
-        android:title="B+" />
+        android:title="Bpositive" />
+    <item android:id="@+id/option_4"
+        android:title="Bnegative" />
+    <item android:id="@+id/option_5"
+        android:title="Opositive" />
+    <item android:id="@+id/option_6"
+        android:title="Onegative" />
+    <item android:id="@+id/option_7"
+        android:title="ABpositive" />
+    <item android:id="@+id/option_8"
+        android:title="ABnegative" />
+    <item android:id="@+id/option_9"
+        android:title="Rhpositive" />
+    <item android:id="@+id/option_10"
+        android:title="Rhnegative" />
 </menu>

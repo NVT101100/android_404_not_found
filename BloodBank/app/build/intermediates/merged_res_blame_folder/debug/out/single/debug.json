@@ -44,6 +44,10 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_search_icon.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\search_icon.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__01.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_01.png"
     },
@@ -80,12 +84,24 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\camera.xml"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_home_item_1.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\home_item_1.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_profile.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable-v24\\profile.png"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_home_menu_item.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable-v24\\home_menu_item.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__22.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_22.png"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_account_icon.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\account_icon.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_img_google.png.flat",
@@ -94,6 +110,10 @@
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__03.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_03.png"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_contact_icon.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\contact_icon.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -116,6 +136,18 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_receive_blood.png.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\receive_blood.png"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_blood.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_search_blood.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\menu_navigation_bottom.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\menu\\navigation_bottom.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -132,12 +164,20 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_06.png"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_search_blood_item.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\search_blood_item.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__14.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_14.png"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle.xml.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -160,8 +200,16 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\corner_radius_10dp.xml"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_pc_covid.png.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\pc_covid.png"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_info.xml.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_add_info.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__10.png.flat",
@@ -176,12 +224,16 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_09.png"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_loading.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_maps.xml.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
-        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_loading.xml.flat",
-        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\loading.xml"
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\xml_file_paths.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_red_button_bg.xml.flat",
@@ -190,6 +242,10 @@
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_regular.ttf.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_map_icon.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\map_icon.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -202,6 +258,10 @@
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_home_icon.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\home_icon.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__15.png.flat",
@@ -228,6 +288,10 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_05.png"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_search_blood_item_background.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable-v24\\search_blood_item_background.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__18.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_18.png"
     },
@@ -236,12 +300,20 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_24.png"
     },
     {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_spinner_background.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable-v24\\spinner_background.xml"
+    },
+    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__30.png.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_30.png"
     },
     {
-        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_spinner_background.xml.flat",
-        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable-v24\\spinner_background.xml"
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_donate_blood.png.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\donate_blood.png"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_img.png.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\img.png"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\menu_pop_up_menu.xml.flat",
