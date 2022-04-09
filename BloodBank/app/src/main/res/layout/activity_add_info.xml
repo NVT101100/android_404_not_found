@@ -10,7 +10,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.AddInfo"
+    tools:context=".fragments.AddInfo"
     android:gravity="center"
     android:background="#99ff0000">
     <LinearLayout
@@ -71,7 +71,7 @@
             android:layout_gravity="center">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nameProfile"
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/corner_radius_10dp"
@@ -92,42 +92,55 @@
             android:layout_gravity="center">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/addressProfile"
+                android:id="@+id/address"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/corner_radius_10dp"
-                android:maxLines="1"
-                android:inputType="textEmailAddress"/>
+                android:maxLines="1"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp">
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:text="Age"
-                android:gravity="center_vertical"/>
-
-            <com.google.android.material.slider.Slider
-                android:id="@+id/ageProfile"
-                android:layout_width="230dp"
-                android:layout_height="match_parent"
-                android:valueFrom="1"
-                android:valueTo="100"
-                android:stepSize="1"/>
-            <TextView
-                android:id="@+id/ageValue"
-                android:layout_width="20dp"
+            <LinearLayout
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="1"
-                android:gravity="end"/>
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Date of Birth" />
+
+                <DatePicker
+                    android:id="@+id/dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Phone number" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/corner_radius_10dp"
+                    android:maxLines="1"
+                    android:inputType="phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:layout_width="300dp"
@@ -180,66 +193,22 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/spinner"
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:boxStrokeWidth="0dp"
+                android:gravity="center"
                 app:boxStrokeColor="@color/white"
                 style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
 
                 <AutoCompleteTextView
                     android:id="@+id/optionView"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="none"
-                    android:text="A+"/>
+                    android:text="A+"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"/>
             </com.google.android.material.textfield.TextInputLayout>
-        </LinearLayout>
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Health summary" />
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/summaryProfile"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/corner_radius_10dp"
-                android:maxLines="1"
-                android:inputType="textEmailAddress"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Donated Times"
-                android:gravity="center_vertical"/>
-
-            <com.google.android.material.slider.Slider
-                android:id="@+id/donatedProfile"
-                android:layout_width="160dp"
-                android:layout_height="match_parent"
-                android:valueFrom="0"
-                android:valueTo="10" />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="1"
-                android:gravity="end"/>
         </LinearLayout>
 
         <TextView
@@ -255,13 +224,63 @@
             android:layout_gravity="center">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/idProfile"
+                android:id="@+id/idNumber"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/corner_radius_10dp"
                 android:maxLines="1"
                 android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Social Insurance Number" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/insuranceNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/corner_radius_10dp"
+                    android:maxLines="1"
+                    android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You will be?"/>
+
+                <RadioGroup
+                    android:id="@+id/state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/Donor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Donor" />
+
+                    <RadioButton
+                        android:id="@+id/Receiver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Receiver" />
+                </RadioGroup>
+            </LinearLayout>
         <com.google.android.material.button.MaterialButton
             android:id="@+id/submitProfile"
             android:layout_width="wrap_content"

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NVT/LT/Android/404_notfound/android_404_not_found/tuan2/app/src/main/res/drawable/edittext_radius.xml" value="0.13802083333333334" />
+        <entry key="..\:/NVT/LT/Android/404_notfound/android_404_not_found/tuan2/app/src/main/res/layout/profile.xml" value="0.176" />
+        <entry key="..\:/NVT/LT/Android/404_notfound/android_404_not_found/tuan3/app/src/main/res/layout/profile.xml" value="0.2421875" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/drawable-v24/arrow_forward.xml" value="0.20185185185185187" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/layout/onboard1.xml" value="0.25" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/layout/onboard2.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/layout/profile.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/layout/signup.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/layout/welcome.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/xml/bot_animation.xml" value="0.121875" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan2/app/src/main/res/xml/top_animation.xml" value="0.121875" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan4/app/src/main/res/layout/activity_list_restaurant.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan4/app/src/main/res/layout/login.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/tuan4/app/src/main/res/layout/restaurant_view_item.xml" value="0.16" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan3/app/src/main/res/layout/login.xml" value="0.2421875" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan3/app/src/main/res/layout/profile.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan3/app/src/main/res/layout/signup.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/drawable/account_icon.xml" value="0.1" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/activity_main.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/main_layout.xml" value="0.228125" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/onboard1.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/onboard2.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/onboard3.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/profile.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/restaurant_view_item.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/signup.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/layout/welcome.xml" value="0.22871376811594202" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2421875" />
+        <entry key="..\:/NVT/LT/Android/temp/tuan5/app/src/main/res/menu/navigation_bottom.xml" value="0.2421875" />
+        <entry key="..\:/TAI_LIEU_NAM_4/BT_Android/tuan2/app/src/main/res/layout/login.xml" value="0.228125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.228125" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,6 +32,9 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   public final ImageView imageView1;
 
   @NonNull
+  public final LinearLayout resendEmail;
+
+  @NonNull
   public final TextInputEditText textEmailLogin;
 
   @NonNull
@@ -38,6 +42,9 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
 
   @NonNull
   public final TextView textToSignup;
+
+  @NonNull
+  public final TextView textVerify;
 
   @NonNull
   public final TextView textView;
@@ -56,7 +63,8 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
 
   protected ActivityLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
       MaterialButton btnLogin, CheckBox checkBox, ImageView imageView, ImageView imageView1,
-      TextInputEditText textEmailLogin, TextInputEditText textPasswordLogin, TextView textToSignup,
+      LinearLayout resendEmail, TextInputEditText textEmailLogin,
+      TextInputEditText textPasswordLogin, TextView textToSignup, TextView textVerify,
       TextView textView, TextView textView2, TextView textView3, TextView textView4,
       TextView textView5) {
     super(_bindingComponent, _root, _localFieldCount);
@@ -64,9 +72,11 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
     this.checkBox = checkBox;
     this.imageView = imageView;
     this.imageView1 = imageView1;
+    this.resendEmail = resendEmail;
     this.textEmailLogin = textEmailLogin;
     this.textPasswordLogin = textPasswordLogin;
     this.textToSignup = textToSignup;
+    this.textVerify = textVerify;
     this.textView = textView;
     this.textView2 = textView2;
     this.textView3 = textView3;

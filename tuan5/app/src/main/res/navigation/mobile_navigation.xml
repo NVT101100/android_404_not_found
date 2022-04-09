@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigationOnboard1">
+    <action
+        android:id="@+id/newUser"
+        app:destination="@id/navigationOnboard2"
+        app:popUpTo="@id/mobile_navigation"
+        app:popUpToInclusive="true"/>
+    <action
+        android:id="@+id/board1_to_welcome"
+        app:destination="@id/navigationWelcome"
+        app:popUpTo="@id/mobile_navigation"
+        app:popUpToInclusive="true"/>
+
+    <fragment
+        android:id="@+id/navigationWelcome"
+        android:name="com.nvt.tuan5.Welcome"
+        tools:layout="@layout/welcome">
+        <action
+            android:id="@+id/welcome_to_login"
+            app:destination="@id/navigationLogin"/>
+        <action
+            android:id="@+id/welcome_to_signup"
+            app:destination="@id/navigationSignup"/>
+        <action
+            android:id="@+id/welcome_to_home"
+            app:destination="@id/navigationHome"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigationOnboard1"
+        android:name="com.nvt.tuan5.OnBoard1"
+        android:label="OnBoard1"
+        tools:layout="@layout/onboard1">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigationOnboard2"
+        android:name="com.nvt.tuan5.OnBoard2"
+        android:label="Onboard2"
+        tools:layout="@layout/onboard2">
+        <action
+            android:id="@+id/board2_to_board3"
+            app:destination="@id/navigationOnboard3"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigationOnboard3"
+        android:name="com.nvt.tuan5.OnBoard3"
+        android:label="Onboard3"
+        tools:layout="@layout/onboard3">
+        <action
+            android:id="@+id/board3_to_welcome"
+            app:destination="@id/navigationWelcome"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:id="@+id/navigationSignup"
+        android:name="com.nvt.tuan5.Signup"
+        android:label="Sign up"
+        tools:layout="@layout/signup">
+        <action
+            android:id="@+id/signup_to_login"
+            app:destination="@id/navigationLogin"
+            app:popUpTo="@id/navigationWelcome"
+            app:popUpToInclusive="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/navigationLogin"
+        android:name="com.nvt.tuan5.Login"
+        android:label="Login"
+        tools:layout="@layout/login">
+        <action
+            android:id="@+id/login_to_home"
+            app:destination="@id/navigationHome"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/navigationHome"
+        android:name="com.nvt.tuan5.ListRestaurant"
+        tools:layout="@layout/activity_list_restaurant">
+    </fragment>
+    <fragment
+        android:id="@+id/navigationProfile"
+        android:name="com.nvt.tuan5.Profile"
+        tools:layout="@layout/profile">
+        <action
+            android:id="@+id/signout"
+            app:destination="@id/navigationWelcome"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+</navigation>

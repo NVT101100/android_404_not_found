@@ -1,11 +1,8 @@
 package com.nvt.bloodbank.activities
 
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Environment
-import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.widget.AutoCompleteTextView
@@ -21,11 +18,9 @@ import com.google.firebase.storage.ktx.storage
 import com.nvt.bloodbank.Constants
 import com.nvt.bloodbank.R
 import com.nvt.bloodbank.databinding.ActivityAddInfoBinding
-import com.nvt.bloodbank.models.Blood
-import com.nvt.bloodbank.models.Group
-import com.nvt.bloodbank.models.Users
-class AddInfo : AppCompatActivity() {
-    private lateinit var binding: ActivityAddInfoBinding
+
+class AddInfo : AppCompatActivity() {}
+    /*private lateinit var binding: ActivityAddInfoBinding
     private var Auth : FirebaseAuth = Firebase.auth
     private var database : FirebaseDatabase = Firebase.database(Constants.databaseURL)
     private var storage = Firebase.storage
@@ -100,7 +95,7 @@ class AddInfo : AppCompatActivity() {
     }
     private fun pickImageFromGallery() {
         val intent = Intent(Intent.ACTION_PICK)
-        intent.type = "image/*"
+        intent.type = "image"
         startActivityForResult(intent, IMAGE_REQUEST_CODE)
     }
 
@@ -116,6 +111,4 @@ class AddInfo : AppCompatActivity() {
                 }
             }
         }
-    }
-
-}
+    }*/

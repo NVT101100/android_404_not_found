@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/navigation_playing"
+        android:icon="@drawable/now_play_icon"
+        android:title="Now Playing" />
+
+    <item
+        android:id="@id/navigation_rating"
+        android:icon="@drawable/top_rate_icon"
+        android:title="Top Rating" />
+
+</menu>

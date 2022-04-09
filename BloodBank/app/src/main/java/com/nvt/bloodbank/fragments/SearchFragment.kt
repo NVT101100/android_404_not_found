@@ -1,24 +1,16 @@
+/*
 package com.nvt.bloodbank.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.MutableData
-import com.google.firebase.database.Transaction
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.nvt.bloodbank.Constants
 import com.nvt.bloodbank.R
-import com.nvt.bloodbank.models.Blood
-import com.nvt.bloodbank.models.Group
-import com.nvt.bloodbank.models.Users
-import org.json.JSONObject
 
 class SearchFragment:Fragment() {
     private var database = Firebase.database(Constants.databaseURL).reference
@@ -54,4 +46,4 @@ class SearchFragment:Fragment() {
         }
         return users
     }
-}
+}*/

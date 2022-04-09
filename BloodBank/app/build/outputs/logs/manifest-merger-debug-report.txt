@@ -1,23 +1,26 @@
 -- Merging decision tree log ---
 meta-data#com.google.android.geo.API_KEY
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:14:5-16:43
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:54:9-56:47
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:16:5-18:43
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:42:9-44:47
 	android:value
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:18:9-40
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:17:9-54
 manifest
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\e743cd9ca3a05a87fb193c2f49402673\transformed\databinding-adapters-7.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-ktx:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\475bc1fe900b55243ed8030ce7072d97\transformed\jetified-databinding-ktx-7.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\8a9308e42650ac90f734548208b67eee\transformed\databinding-runtime-7.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\aa5677aded84bcfc71fa08c49e729ce4\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\a5b7ecb6b99e77a4d612a9746bf6e79e\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\f43135d9e76704664b7ed1bdc2f926c8\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\9b2945463ba8f45d45a04cd36d2b50d0\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\62f56bd0e4f691d0028fa8183c403315\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-3\03d4c820a2e7d5ea5a46f10e82f0f512\transformed\material-1.6.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\ASUS\.gradle\caches\transforms-3\6936d29e9f595dc6bbce098f43b20a22\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\70d19f7faccb23f85e63c045641773a6\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -55,11 +58,15 @@ MERGED from [com.google.android.gms:play-services-measurement-base:20.1.0] C:\Us
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\0427719ff42d47c3f5d5b0b87e583811\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\ca6299831aae624f3af9d84739708902\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\6824eed59c6ee30eb397489f315c2e1c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\cbe258848c35d2c3630c4bdc48b2a455\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\c9a8bc04a0271563ce2ed192a18976af\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\4c64fe54346320247a0ebbefcb7650d0\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\ASUS\.gradle\caches\transforms-3\f17cabb1f073c877894a88192e88b224\transformed\jetified-activity-ktx-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\f7e558451808bf1e062a90e88611bbb7\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\9483c85e7428503f9f93546e6ca10002\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\814785bd0f952a67b59db6f40cb087c9\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7936c1e780c4b4359596a46da30fa89e\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\7ecf4f0b2655cf821b457ac639d31b2b\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\ASUS\.gradle\caches\transforms-3\8744c0dd4991b134912cc5faae03f895\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\b0ee36754e4e4518460de545dc6e714a\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e088c2f14a6639932a1129a4bec273d\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -69,7 +76,6 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\24d58aeb9642fcab5b3818559d70f775\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\8083baeab49511ab6bd1fc17486226ad\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\45ef203296d026b5825c43a92c439e54\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\33116898f56720ba5e635ee732136341\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\2fd28765dc0e93fb9fc0ff976b57930b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\87a999060c358d06f98fc055ebf01c2f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\ed062d0b433a6c227d503330e202aedb\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -78,6 +84,8 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\5502bac3e6e57f70dd79acdf9318001f\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b1dcd25fb2cf0a2675dca873356e167d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\1f810a5bf9a118e025e77658126decc4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\41cda189873302fb061a3f7cc10607ac\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\eb8e4d5adf74ea2c3edb3d235819f5a7\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2dac103518b72c96461142b18704dd1e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2a15e2d0e332b327f642d67e53e8bce3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\37ea071fe8eaaa9eeaea08606313e455\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -104,29 +112,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\f321b35b2d2c8740e98b686d6bbfe33b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47b92674151b5ba9f671751fcb347cc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\6ae416d398b2534e3a80156df1fc2c48\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
 		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-83:12
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:1-66:12
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\27a56ad0fda0685e5a06456d7d0e3fab\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:27:5-67
@@ -146,27 +158,49 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3299bc89658e96b786945eb8835b9107\transformed\jetified-play-services-measurement-sdk-api-20.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3299bc89658e96b786945eb8835b9107\transformed\jetified-play-services-measurement-sdk-api-20.1.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:12:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:12:5-81
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:14:5-78
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\27a56ad0fda0685e5a06456d7d0e3fab\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\27a56ad0fda0685e5a06456d7d0e3fab\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\99af408f10cc699f006232c674901637\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\99af408f10cc699f006232c674901637\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\d1b12405025150da39577d1cdf3a1044\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\d1b12405025150da39577d1cdf3a1044\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c44925ce60efbda2e8eaf45fab84be90\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c44925ce60efbda2e8eaf45fab84be90\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d4daadabdc9907f34ef733461388df5c\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d4daadabdc9907f34ef733461388df5c\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\7ab2a80042d98143ac74df357d5c68f8\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\7ab2a80042d98143ac74df357d5c68f8\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\ead4ea6b0c64e8e78f8c33ca2a356a79\transformed\jetified-play-services-measurement-impl-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\ead4ea6b0c64e8e78f8c33ca2a356a79\transformed\jetified-play-services-measurement-impl-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3299bc89658e96b786945eb8835b9107\transformed\jetified-play-services-measurement-sdk-api-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3299bc89658e96b786945eb8835b9107\transformed\jetified-play-services-measurement-sdk-api-20.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:14:22-76
 queries
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:18:5-22:15
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:20:5-24:15
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:19:9-21:18
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:21:9-23:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:20:21-70
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:22:21-70
 application
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:24:5-81:19
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:26:5-64:19
 MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-3\03d4c820a2e7d5ea5a46f10e82f0f512\transformed\material-1.6.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-3\03d4c820a2e7d5ea5a46f10e82f0f512\transformed\material-1.6.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\ASUS\.gradle\caches\transforms-3\6936d29e9f595dc6bbce098f43b20a22\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -244,87 +278,51 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ASUS\.gradle\cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\37ea071fe8eaaa9eeaea08606313e455\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:29:9-35
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:31:9-35
 	android:label
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:27:9-41
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:29:9-41
 	android:roundIcon
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:28:9-54
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:30:9-54
 	android:icon
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:26:9-43
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:28:9-43
 	android:allowBackup
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:27:9-35
 	android:theme
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:30:9-47
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:32:9-74
 	android:usesCleartextTraffic
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:31:9-44
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:33:9-44
 activity#com.nvt.bloodbank.activities.MainActivity
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:32:9-35:80
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:45:9-53:20
 	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:34:13-37
-	android:theme
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:35:13-78
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:33:13-52
-activity#com.nvt.bloodbank.activities.AddInfo
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:36:9-39:80
-	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:38:13-37
-	android:theme
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:39:13-78
-	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:37:13-47
-activity#com.nvt.bloodbank.activities.Signup
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:40:9-42:39
-	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:42:13-36
-	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:41:13-46
-activity#com.nvt.bloodbank.activities.Login
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:43:9-45:39
-	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:45:13-36
-	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:44:13-45
-activity#com.nvt.bloodbank.activities.Maps
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:58:9-61:59
-	android:label
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:61:13-56
-	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:60:13-36
-	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:59:13-44
-activity#com.nvt.bloodbank.activities.Splash
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:62:9-70:20
-	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:64:13-36
-	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:63:13-46
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:46:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:65:13-69:29
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:66:17-69
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:66:25-66
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:68:17-77
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:68:27-74
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:51:27-74
 provider#androidx.core.content.FileProvider
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:72:9-80:20
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:55:9-63:20
 	android:grantUriPermissions
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:76:13-47
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:59:13-47
 	android:authorities
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:74:13-67
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:57:13-67
 	android:exported
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:75:13-37
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:73:13-62
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:56:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:77:13-79:54
+ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:60:13-62:54
 	android:resource
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:79:17-51
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:62:17-51
 	android:name
-		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:78:17-67
+		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:61:17-67
 uses-sdk
 INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
@@ -337,8 +335,14 @@ MERGED from [androidx.databinding:databinding-runtime:7.0.2] C:\Users\ASUS\.grad
 MERGED from [androidx.databinding:databinding-runtime:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\8a9308e42650ac90f734548208b67eee\transformed\databinding-runtime-7.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\aa5677aded84bcfc71fa08c49e729ce4\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\aa5677aded84bcfc71fa08c49e729ce4\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\a5b7ecb6b99e77a4d612a9746bf6e79e\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\a5b7ecb6b99e77a4d612a9746bf6e79e\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\f43135d9e76704664b7ed1bdc2f926c8\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\f43135d9e76704664b7ed1bdc2f926c8\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\9b2945463ba8f45d45a04cd36d2b50d0\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\9b2945463ba8f45d45a04cd36d2b50d0\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\62f56bd0e4f691d0028fa8183c403315\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\62f56bd0e4f691d0028fa8183c403315\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-3\03d4c820a2e7d5ea5a46f10e82f0f512\transformed\material-1.6.0-beta01\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-3\03d4c820a2e7d5ea5a46f10e82f0f512\transformed\material-1.6.0-beta01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\ASUS\.gradle\caches\transforms-3\6936d29e9f595dc6bbce098f43b20a22\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
@@ -413,16 +417,24 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\ca6299831aae624f3af9d84739708902\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\6824eed59c6ee30eb397489f315c2e1c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\6824eed59c6ee30eb397489f315c2e1c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\cbe258848c35d2c3630c4bdc48b2a455\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\cbe258848c35d2c3630c4bdc48b2a455\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\c9a8bc04a0271563ce2ed192a18976af\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\c9a8bc04a0271563ce2ed192a18976af\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\4c64fe54346320247a0ebbefcb7650d0\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\4c64fe54346320247a0ebbefcb7650d0\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\ASUS\.gradle\caches\transforms-3\f17cabb1f073c877894a88192e88b224\transformed\jetified-activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\ASUS\.gradle\caches\transforms-3\f17cabb1f073c877894a88192e88b224\transformed\jetified-activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\f7e558451808bf1e062a90e88611bbb7\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\f7e558451808bf1e062a90e88611bbb7\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\9483c85e7428503f9f93546e6ca10002\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\9483c85e7428503f9f93546e6ca10002\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\814785bd0f952a67b59db6f40cb087c9\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\814785bd0f952a67b59db6f40cb087c9\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7936c1e780c4b4359596a46da30fa89e\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7936c1e780c4b4359596a46da30fa89e\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\7ecf4f0b2655cf821b457ac639d31b2b\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\7ecf4f0b2655cf821b457ac639d31b2b\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\ASUS\.gradle\caches\transforms-3\8744c0dd4991b134912cc5faae03f895\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\ASUS\.gradle\caches\transforms-3\8744c0dd4991b134912cc5faae03f895\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\b0ee36754e4e4518460de545dc6e714a\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
@@ -441,8 +453,6 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS\.
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\8083baeab49511ab6bd1fc17486226ad\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\45ef203296d026b5825c43a92c439e54\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\45ef203296d026b5825c43a92c439e54\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\33116898f56720ba5e635ee732136341\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\33116898f56720ba5e635ee732136341\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\2fd28765dc0e93fb9fc0ff976b57930b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\2fd28765dc0e93fb9fc0ff976b57930b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\87a999060c358d06f98fc055ebf01c2f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -459,6 +469,10 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gra
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b1dcd25fb2cf0a2675dca873356e167d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\1f810a5bf9a118e025e77658126decc4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\1f810a5bf9a118e025e77658126decc4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\41cda189873302fb061a3f7cc10607ac\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\41cda189873302fb061a3f7cc10607ac\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\eb8e4d5adf74ea2c3edb3d235819f5a7\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\eb8e4d5adf74ea2c3edb3d235819f5a7\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2dac103518b72c96461142b18704dd1e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2dac103518b72c96461142b18704dd1e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2a15e2d0e332b327f642d67e53e8bce3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
@@ -521,26 +535,6 @@ INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\And
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 		ADDED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 		INJECTED from E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\27a56ad0fda0685e5a06456d7d0e3fab\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\27a56ad0fda0685e5a06456d7d0e3fab\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\99af408f10cc699f006232c674901637\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\99af408f10cc699f006232c674901637\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-auth:21.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\d1b12405025150da39577d1cdf3a1044\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-auth:21.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\d1b12405025150da39577d1cdf3a1044\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c44925ce60efbda2e8eaf45fab84be90\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c44925ce60efbda2e8eaf45fab84be90\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d4daadabdc9907f34ef733461388df5c\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d4daadabdc9907f34ef733461388df5c\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.gms:play-services-measurement:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\7ab2a80042d98143ac74df357d5c68f8\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\7ab2a80042d98143ac74df357d5c68f8\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\ead4ea6b0c64e8e78f8c33ca2a356a79\transformed\jetified-play-services-measurement-impl-20.1.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\ead4ea6b0c64e8e78f8c33ca2a356a79\transformed\jetified-play-services-measurement-impl-20.1.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3299bc89658e96b786945eb8835b9107\transformed\jetified-play-services-measurement-sdk-api-20.1.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3299bc89658e96b786945eb8835b9107\transformed\jetified-play-services-measurement-sdk-api-20.1.0\AndroidManifest.xml:24:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\946103943f17ad30b11dc84e997bb658\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
