@@ -50,10 +50,14 @@
             app:popUpTo="@id/main_navigation"/>
         <action
             android:id="@+id/action_signin_to_home"
-            app:destination="@id/home" />
+            app:destination="@id/home"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true"/>
         <action
             android:id="@+id/action_signin_to_addinfo"
-            app:destination="@id/addinfo" />
+            app:destination="@id/addinfo"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/main_navigation"/>
     </fragment>
     <fragment
         android:id="@+id/addinfo"
@@ -61,7 +65,9 @@
         tools:layout="@layout/activity_add_info">
         <action
             android:id="@+id/action_addinfo_to_home"
-            app:destination="@id/home" />
+            app:destination="@id/home"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/main_navigation"/>
     </fragment>
     <fragment
         android:id="@+id/home"
@@ -70,6 +76,9 @@
         <action
             android:id="@+id/action_home_to_signin"
             app:destination="@id/signin" />
+        <action
+            android:id="@+id/home_to_event"
+            app:destination="@id/event"/>
     </fragment>
     <fragment
         android:id="@+id/map"
@@ -79,7 +88,21 @@
     <fragment
         android:id="@+id/search"
         android:name="com.nvt.bloodbank.fragments.SearchFragment"
-        tools:layout="@layout/activity_search_blood">
+        tools:layout="@layout/activity_search">
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.nvt.bloodbank.fragments.Profile"
+        tools:layout="@layout/profile"/>
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.nvt.bloodbank.fragments.Contact"
+        tools:layout="@layout/contact"/>
+    <fragment
+        android:id="@+id/event"
+        android:name="com.nvt.bloodbank.fragments.Event"
+        tools:layout="@layout/event">
+
     </fragment>
 
 </navigation>

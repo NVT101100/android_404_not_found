@@ -22,10 +22,9 @@ class LoginModel:ViewModel() {
     private val _errPass = MutableLiveData<Boolean>()
     val errPass : LiveData<Boolean>
     get() = _errPass
-    private var auth = Firebase.auth.currentUser
     private var database = Firebase.database(Constants.databaseURL).reference
 
-    fun checkInput(email:String,password:String){
+    private fun checkInput(email:String, password:String){
         if(TextUtils.isEmpty(email)) {
             _errEmail.value = true
         }
@@ -35,11 +34,12 @@ class LoginModel:ViewModel() {
         }
     }
     fun checkState(){
+        var auth = Firebase.auth.currentUser
         if(auth != null) {
             if(!auth!!.isEmailVerified) {
                 _logState.value=LogState.unidentified
             }
-            else database.child("user/${auth!!.uid}").get().addOnSuccessListener {
+            else database.child("users").child(auth!!.uid).get().addOnSuccessListener {
                 if(it.value == null) _logState.value=LogState.logged_new
                 else _logState.value=LogState.logged_old
             }.addOnFailureListener {

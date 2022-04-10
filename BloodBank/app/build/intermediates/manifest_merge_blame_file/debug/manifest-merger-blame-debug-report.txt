@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="23"
+8        android:minSdkVersion="24"
 8-->E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
 9-->E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml
@@ -87,8 +87,8 @@
 50        android:supportsRtl="true"
 50-->E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:31:9-35
 51        android:testOnly="true"
-52        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
-52-->E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:32:9-74
+52        android:theme="@style/Theme.MaterialComponents.Light"
+52-->E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:32:9-62
 53        android:usesCleartextTraffic="true" >
 53-->E:\NVT\LT\Android\android_404_not_found\BloodBank\app\src\main\AndroidManifest.xml:33:9-44
 54

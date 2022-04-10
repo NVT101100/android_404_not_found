@@ -14,12 +14,12 @@
         android:title="Search"
         android:enabled="true"/>
     <item
-        android:id="@+id/navigation_contact"
+        android:id="@id/contact"
         android:icon="@drawable/contact_icon"
         android:title="Contact"
         android:enabled="true"/>
     <item
-        android:id="@+id/navigation_profile"
+        android:id="@id/profile"
         android:icon="@drawable/account_icon"
         android:title="Profile"
         android:enabled="true"/>

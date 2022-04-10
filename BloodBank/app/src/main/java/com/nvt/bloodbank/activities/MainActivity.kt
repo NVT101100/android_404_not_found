@@ -5,21 +5,13 @@ import android.os.Bundle
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentContainerView
-import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.firebase.auth.FirebaseAuth
 import com.nvt.bloodbank.R
-import com.nvt.bloodbank.fragments.HomeFragment
-import com.nvt.bloodbank.fragments.MapFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,23 +19,30 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val navigation = findViewById<BottomNavigationView>(R.id.navigation)
         val view = findViewById<FragmentContainerView>(R.id.nav_host)
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
-        val navController = navHostFragment.navController
+        val navController = findNavController(R.id.nav_host)
+        val appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.home,R.id.search,R.id.map,R.id.profile,R.id.contact
+            )
+        )
+        setupActionBarWithNavController(navController, appBarConfiguration)
         navigation.setupWithNavController(navController)
         navController.addOnDestinationChangedListener { controller, destination, arguments ->
             when(destination.id) {
-                R.id.home -> {
-                    bottomNavActive(navigation,view,true)
+                R.id.splash -> {
+                    bottomNavActive(navigation, view, false)
                 }
-                R.id.map ->{
-                    bottomNavActive(navigation,view,true)
+                R.id.signin -> {
+                    bottomNavActive(navigation, view, false)
                 }
-                R.id.search -> {
-                    bottomNavActive(navigation,view,true)
-                    controller.popBackStack(R.id.search,false)
+                R.id.signup -> {
+                    bottomNavActive(navigation, view, false)
+                }
+                R.id.addinfo -> {
+                    bottomNavActive(navigation, view, false)
                 }
                 else -> {
-                    bottomNavActive(navigation,view,false)
+                    bottomNavActive(navigation, view, true)
                 }
             }
         }
