@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="hospitalObject"
+            type="com.nvt.bloodbank.dto.Hospitals" />
+    </data>
 <LinearLayout
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:background="@drawable/hospital_item_background"
-    android:padding="10dp">
+    android:padding="10dp"
+    android:id="@+id/hospitalItem">
     <ImageView
         android:layout_width="80dp"
         android:layout_height="wrap_content"
@@ -21,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="Thu Duc General Hospital"
+            android:text="@{hospitalObject.hospitalName}"
             android:fontFamily="@font/poppins_semibold"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="100 Le Van Chi"
+                android:text="@{hospitalObject.hospitalAddress}"
                 android:fontFamily="@font/poppins_semibold"/>
 
         </LinearLayout>
@@ -57,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="abc@gmail.com"
+                android:text="@{hospitalObject.hospitalEmail}"
                 android:fontFamily="@font/poppins_semibold"/>
 
         </LinearLayout>
@@ -76,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="+84669253256"
+                android:text="@{hospitalObject.hospitalPhone}"
                 android:fontFamily="@font/poppins_semibold"/>
 
         </LinearLayout>

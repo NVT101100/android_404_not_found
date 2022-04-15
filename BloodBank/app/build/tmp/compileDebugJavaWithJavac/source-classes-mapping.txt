@@ -1,7 +1,9 @@
+com/nvt/bloodbank/databinding/ChattingBinding.java
+ com.nvt.bloodbank.databinding.ChattingBinding
 com/nvt/bloodbank/databinding/ContactBinding.java
  com.nvt.bloodbank.databinding.ContactBinding
-com/nvt/bloodbank/databinding/SearchItemBinding.java
- com.nvt.bloodbank.databinding.SearchItemBinding
+com/nvt/bloodbank/databinding/HospitalItemBinding.java
+ com.nvt.bloodbank.databinding.HospitalItemBinding
 com/nvt/bloodbank/databinding/ActivityHomeBinding.java
  com.nvt.bloodbank.databinding.ActivityHomeBinding
 com/nvt/bloodbank/databinding/ActivityAddInfoBinding.java
@@ -14,6 +16,12 @@ com/nvt/bloodbank/databinding/EventBinding.java
  com.nvt.bloodbank.databinding.EventBinding
 com/nvt/bloodbank/databinding/ActivityMainBinding.java
  com.nvt.bloodbank.databinding.ActivityMainBinding
+com/nvt/bloodbank/databinding/HospitalDetailBinding.java
+ com.nvt.bloodbank.databinding.HospitalDetailBinding
+com/nvt/bloodbank/databinding/DetailPagerItemBinding.java
+ com.nvt.bloodbank.databinding.DetailPagerItemBinding
+com/nvt/bloodbank/databinding/ContactItemBinding.java
+ com.nvt.bloodbank.databinding.ContactItemBinding
 com/nvt/bloodbank/BuildConfig.java
  com.nvt.bloodbank.BuildConfig
 com/nvt/bloodbank/databinding/SplashBinding.java
@@ -22,13 +30,13 @@ com/nvt/bloodbank/databinding/ActivityMapsBinding.java
  com.nvt.bloodbank.databinding.ActivityMapsBinding
 com/nvt/bloodbank/databinding/ProfileBinding.java
  com.nvt.bloodbank.databinding.ProfileBinding
-com/nvt/bloodbank/DataBindingTriggerClass.java
- com.nvt.bloodbank.DataBindingTriggerClass
+com/nvt/bloodbank/databinding/EventItemBinding.java
+ com.nvt.bloodbank.databinding.EventItemBinding
 com/nvt/bloodbank/databinding/ActivitySearchBinding.java
  com.nvt.bloodbank.databinding.ActivitySearchBinding
 com/nvt/bloodbank/databinding/ActivityLoginBinding.java
  com.nvt.bloodbank.databinding.ActivityLoginBinding
 com/nvt/bloodbank/databinding/ActivitySignupBinding.java
  com.nvt.bloodbank.databinding.ActivitySignupBinding
-com/nvt/bloodbank/databinding/EventItemBinding.java
- com.nvt.bloodbank.databinding.EventItemBinding
+com/nvt/bloodbank/DataBindingTriggerClass.java
+ com.nvt.bloodbank.DataBindingTriggerClass

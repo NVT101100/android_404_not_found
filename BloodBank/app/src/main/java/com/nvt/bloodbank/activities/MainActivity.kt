@@ -22,13 +22,13 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host)
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.home,R.id.search,R.id.map,R.id.profile,R.id.contact
+                R.id.home, R.id.search, R.id.map, R.id.profile, R.id.contact
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navigation.setupWithNavController(navController)
         navController.addOnDestinationChangedListener { controller, destination, arguments ->
-            when(destination.id) {
+            when (destination.id) {
                 R.id.splash -> {
                     bottomNavActive(navigation, view, false)
                 }
@@ -60,5 +60,4 @@ class MainActivity : AppCompatActivity() {
             view.layoutParams = viewParam
         }
     }
-
 }

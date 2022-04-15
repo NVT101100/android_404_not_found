@@ -3,15 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/detail_item_background.xml" value="0.1355" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/event_item_background.xml" value="0.1605" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/home_menu_item.xml" value="0.14" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/hospital_item_background.xml" value="0.248" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1355" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/search_blood_item_background.xml" value="0.1355" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable-v24/spinner_background.xml" value="0.14" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/circle.xml" value="0.1296875" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/corner_radius_10dp.xml" value="0.18981481481481483" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/home_item_1.xml" value="0.14" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/ic_event.xml" value="0.248" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/ic_sign_out.xml" value="0.248" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/location_icon.xml" value="0.248" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/drawable/red_button_bg.xml" value="0.1296875" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/activity_add_info.xml" value="0.264" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/activity_home.xml" value="0.264" />
@@ -21,9 +25,15 @@
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/activity_search.xml" value="0.2421875" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/activity_search_blood.xml" value="0.228125" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/chatting.xml" value="0.2421875" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/chatting_item.xml" value="0.264" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/contact.xml" value="0.2421875" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/detail_pager_item.xml" value="0.1" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/event.xml" value="0.264" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/event_item.xml" value="0.264" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/hospital_detail.xml" value="0.1" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/hospital_item.xml" value="0.11778115501519756" />
+        <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/list_contact.xml" value="0.264" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/loading.xml" value="0.1" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/profile.xml" value="0.2421875" />
         <entry key="..\:/NVT/LT/Android/android_404_not_found/BloodBank/app/src/main/res/layout/search_blood_item.xml" value="0.228125" />

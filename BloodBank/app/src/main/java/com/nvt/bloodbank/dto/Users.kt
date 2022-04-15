@@ -12,5 +12,6 @@ data class Users(
     var blood:bldGrp=bldGrp.APos,
     var idNum:String?=null,
     var insrNum:String?=null,
-    var isDonor:Boolean=true
+    var isDonor:Boolean=true,
+    var position:Position=Position(0.0,0.0)
 )

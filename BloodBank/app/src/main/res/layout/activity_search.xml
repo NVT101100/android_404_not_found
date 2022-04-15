@@ -19,7 +19,7 @@
             android:background="#19ded5" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/listBloodUser"
+            android:id="@+id/listSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/corner_radius_10dp"

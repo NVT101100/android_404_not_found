@@ -1,5 +1,9 @@
 package com.nvt.bloodbank.dto
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Hospitals (
     var hospitalName:String?=null,
     var hospitalAddress:String?=null,
@@ -7,4 +11,4 @@ data class Hospitals (
     var hospitalEmail:String?=null,
     var hospitalPhone:String?=null,
     var hospitalBlood:List<Blood> = listOf()
-        )
+        ):Parcelable
