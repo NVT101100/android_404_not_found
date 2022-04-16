@@ -27,5 +27,11 @@ class HomeFragment:Fragment(){
         view.findViewById<LinearLayout>(R.id.home_event).setOnClickListener {
             findNavController().navigate(R.id.home_to_event)
         }
+        view.findViewById<LinearLayout>(R.id.btnCovidCert).setOnClickListener {
+            findNavController().navigate(R.id.home_to_covidCert)
+        }
+        view.findViewById<LinearLayout>(R.id.btnDonatedCert).setOnClickListener {
+            findNavController().navigate(R.id.home_to_donatedCert)
+        }
     }
 }

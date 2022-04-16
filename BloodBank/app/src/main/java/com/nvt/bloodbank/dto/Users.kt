@@ -13,5 +13,6 @@ data class Users(
     var idNum:String?=null,
     var insrNum:String?=null,
     var isDonor:Boolean=true,
-    var position:Position=Position(0.0,0.0)
+    var position:Position=Position(0.0,0.0),
+    var certs:List<Certificates> = listOf()
 )

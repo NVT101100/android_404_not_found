@@ -81,6 +81,16 @@
             app:destination="@id/event"
             app:popUpTo="@id/home"
             app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/home_to_covidCert"
+            app:destination="@id/covidCert"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/home_to_donatedCert"
+            app:destination="@id/donatedCert"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/map"
@@ -105,7 +115,13 @@
     <fragment
         android:id="@+id/profile"
         android:name="com.nvt.bloodbank.fragments.Profile"
-        tools:layout="@layout/profile" />
+        tools:layout="@layout/profile">
+        <action
+            android:id="@+id/to_edit_profile"
+            app:destination="@id/editProfile"
+            app:popUpTo="@id/profile"
+            app:popUpToInclusive="false"/>
+    </fragment>
     <fragment
         android:id="@+id/contact"
         android:name="com.nvt.bloodbank.fragments.Contact"
@@ -113,8 +129,8 @@
         <action
             android:id="@+id/contact_to_chatting"
             app:destination="@id/chatting"
-            app:popUpToInclusive="false"
-            app:popUpTo="@id/contact"/>
+            app:popUpTo="@id/contact"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/event"
@@ -140,6 +156,24 @@
         android:id="@+id/chatting"
         android:name="com.nvt.bloodbank.fragments.Chatting"
         tools:layout="@layout/chatting">
+
+    </fragment>
+    <fragment
+        android:id="@+id/covidCert"
+        android:name="com.nvt.bloodbank.fragments.CovidCert"
+        tools:layout="@layout/covid_certificate">
+
+    </fragment>
+    <fragment
+        android:id="@+id/donatedCert"
+        android:name="com.nvt.bloodbank.fragments.DonatedCert"
+        tools:layout="@layout/donated_certificate">
+
+    </fragment>
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.nvt.bloodbank.fragments.EditProfile"
+        tools:layout="@layout/edit_profile">
 
     </fragment>
 

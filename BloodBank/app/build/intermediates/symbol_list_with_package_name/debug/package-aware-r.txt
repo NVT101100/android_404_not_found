@@ -2610,6 +2610,8 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable camera
+drawable cert_background
+drawable cert_img
 drawable chat_bot
 drawable circle
 drawable common_full_open_on_phone
@@ -2651,6 +2653,7 @@ drawable home_menu_item
 drawable hosp
 drawable hospital_item_background
 drawable ic_arrow_forward
+drawable ic_certified
 drawable ic_check_circle
 drawable ic_clock_black_24dp
 drawable ic_double_arrow
@@ -2658,6 +2661,7 @@ drawable ic_edit
 drawable ic_event
 drawable ic_giftcart
 drawable ic_hospital
+drawable ic_image
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2674,6 +2678,7 @@ drawable ic_sign_out
 drawable img
 drawable img_fb
 drawable img_google
+drawable list_cert_background
 drawable location_icon
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2855,6 +2860,9 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddImg
+id btnCovidCert
+id btnDonatedCert
+id btnEdit
 id btnLogin
 id btnSignup
 id buttonPanel
@@ -2867,6 +2875,7 @@ id centerCrop
 id centerInside
 id center_horizontal
 id center_vertical
+id certImg
 id chain
 id chain2
 id chains
@@ -2901,6 +2910,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id covidCert
 id currentState
 id custom
 id customPanel
@@ -2928,6 +2938,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id dob
+id donatedCert
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2944,6 +2955,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editProfile
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -2995,6 +3007,7 @@ id genderGroup
 id ggmap
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3007,6 +3020,8 @@ id hideable
 id home
 id homeAsUp
 id home_event
+id home_to_covidCert
+id home_to_donatedCert
 id home_to_event
 id honorRequest
 id horizontal
@@ -3051,6 +3066,7 @@ id light
 id line1
 id line3
 id linear
+id listCert
 id listEvent
 id listHospitalContact
 id listMode
@@ -3274,6 +3290,7 @@ id staticPostLayout
 id stop
 id stretch
 id submenuarrow
+id submitEdit
 id submitProfile
 id submit_area
 id supportScrollUp
@@ -3329,6 +3346,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id to_edit_profile
 id toggle
 id top
 id topPanel
@@ -3471,10 +3489,12 @@ layout activity_search
 layout activity_signup
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout cert_item
 layout chatting
 layout chatting_item
 layout contact
 layout contact_item
+layout covid_certificate
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3492,6 +3512,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout detail_pager_item
+layout donated_certificate
+layout edit_profile
 layout event
 layout event_item
 layout hospital_detail
