@@ -2694,6 +2694,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable message_background
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -3184,6 +3185,7 @@ id progress_horizontal
 id radio
 id ratio
 id rePasswordSigup
+id receive
 id rectangles
 id resendEmail
 id reverseSawtooth
@@ -3227,6 +3229,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3469,6 +3472,7 @@ layout activity_signup
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout chatting
+layout chatting_item
 layout contact
 layout contact_item
 layout custom_dialog

@@ -74,5 +74,9 @@
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chatting_item.xml",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\chatting_item.xml"
     }
 ]

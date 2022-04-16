@@ -2693,6 +2693,7 @@ int drawable material_ic_keyboard_arrow_previous_black_24dp 0x7f0700c4
 int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f0700c5
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f0700c6
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f0700c7
+int drawable message_background 0x7f0700f9
 int drawable mtrl_dialog_background 0x7f0700c8
 int drawable mtrl_dropdown_arrow 0x7f0700c9
 int drawable mtrl_ic_arrow_drop_down 0x7f0700ca
@@ -3183,6 +3184,7 @@ int id progress_horizontal 0x7f0901b6
 int id radio 0x7f0901b7
 int id ratio 0x7f0901b8
 int id rePasswordSigup 0x7f0901b9
+int id receive 0x7f09027a
 int id rectangles 0x7f0901ba
 int id resendEmail 0x7f0901bb
 int id reverseSawtooth 0x7f0901bc
@@ -3226,6 +3228,7 @@ int id search_voice_btn 0x7f0901e0
 int id select_dialog_listview 0x7f0901e1
 int id selected 0x7f0901e2
 int id selection_type 0x7f0901e3
+int id send 0x7f09027b
 int id sharedValueSet 0x7f0901e4
 int id sharedValueUnset 0x7f0901e5
 int id shortcut 0x7f0901e6
@@ -3468,6 +3471,7 @@ int layout activity_signup 0x7f0c0022
 int layout browser_actions_context_menu_page 0x7f0c0023
 int layout browser_actions_context_menu_row 0x7f0c0024
 int layout chatting 0x7f0c008a
+int layout chatting_item 0x7f0c008c
 int layout contact 0x7f0c0025
 int layout contact_item 0x7f0c008b
 int layout custom_dialog 0x7f0c0026

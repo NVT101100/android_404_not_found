@@ -1,3 +1,5 @@
+com/nvt/bloodbank/databinding/ChattingItemBinding.java
+ com.nvt.bloodbank.databinding.ChattingItemBinding
 com/nvt/bloodbank/databinding/ChattingBinding.java
  com.nvt.bloodbank.databinding.ChattingBinding
 com/nvt/bloodbank/databinding/ContactBinding.java
