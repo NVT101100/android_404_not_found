@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+    <data>
+        <variable
+            name="appearContact"
+            type="com.nvt.bloodbank.dto.AppearContact" />
+    </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contactItem"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,11 +18,11 @@
         android:src="@drawable/chat_bot"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Thu Duc Hospital"
-        android:gravity="center"
+        android:text="@{appearContact.hospName}"
+        android:layout_gravity="center"
         android:textSize="20dp"
         android:textColor="@color/white"/>
     <ImageView

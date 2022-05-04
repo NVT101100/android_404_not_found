@@ -7,7 +7,7 @@
 
         <variable
             name="info"
-            type="com.nvt.bloodbank.models.InfoModel" />
+            type="com.nvt.bloodbank.dto.Users" />
     </data>
 
     <LinearLayout
@@ -19,7 +19,7 @@
 
         <LinearLayout
             android:layout_width="350dp"
-            android:layout_height="700dp"
+            android:layout_height="600dp"
             android:layout_gravity="center"
             android:background="@drawable/corner_radius_10dp"
             android:isScrollContainer="true"
@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:drawableRight="@drawable/ic_edit"
-                        android:text="Nguyen Van Thoi" />
+                        android:text="@{info.name}" />
 
                     <TextView
                         android:id="@+id/errName"
@@ -102,7 +102,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:drawableRight="@drawable/ic_edit"
-                        android:text="afthgfuyejhf" />
+                        android:text="@{info.address}" />
 
                     <TextView
                         android:id="@+id/errAdress"
@@ -131,7 +131,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="150dp"
                             android:calendarViewShown="false"
-                            android:datePickerMode="spinner"/>
+                            android:datePickerMode="spinner" />
 
                     </LinearLayout>
 
@@ -156,7 +156,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:drawableRight="@drawable/ic_edit"
-                        android:text="5376895632585" />
+                        android:text="@{info.phone}" />
 
                     <TextView
                         android:id="@+id/errPhone"
@@ -246,7 +246,7 @@
                                 android:inputType="none"
                                 android:paddingTop="0dp"
                                 android:paddingBottom="0dp"
-                                android:text="A+" />
+                                android:text="@{info.blood.name()}" />
                         </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
 
@@ -263,7 +263,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:drawableRight="@drawable/ic_edit"
-                        android:text="86695655665" />
+                        android:text="@{info.idNum}" />
 
                     <TextView
                         android:id="@+id/errId"
@@ -286,7 +286,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:drawableRight="@drawable/ic_edit"
-                        android:text="568899565588" />
+                        android:text="@{info.insrNum}" />
 
                     <TextView
                         android:id="@+id/errIsr"

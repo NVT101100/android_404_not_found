@@ -12,12 +12,12 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\_27.png"
     },
     {
-        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\layout_cert_item.xml.flat",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\cert_item.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\merged_res\\debug\\drawable__12.png.flat",

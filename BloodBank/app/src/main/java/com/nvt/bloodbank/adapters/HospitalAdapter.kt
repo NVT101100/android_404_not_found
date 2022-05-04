@@ -16,11 +16,11 @@ import com.nvt.bloodbank.fragments.SearchFragmentDirections
 class HospitalAdapter:ListAdapter<Hospitals,HospitalAdapter.HospitalViewHolder>(HospitalDiffUtilCallBack()) {
     class HospitalDiffUtilCallBack : DiffUtil.ItemCallback<Hospitals>() {
         override fun areContentsTheSame(oldItem: Hospitals, newItem: Hospitals): Boolean {
-            TODO("Not yet implemented")
+            return false
         }
 
         override fun areItemsTheSame(oldItem: Hospitals, newItem: Hospitals): Boolean {
-            TODO("Not yet implemented")
+            return false
         }
     }
     class HospitalViewHolder private constructor(var binding : HospitalItemBinding) : RecyclerView.ViewHolder(binding.root) {

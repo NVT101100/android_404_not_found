@@ -4,6 +4,9 @@
         <variable
             name="eventObject"
             type="com.nvt.bloodbank.dto.Events" />
+        <variable
+            name="canReg"
+            type="Boolean" />
     </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -164,7 +167,8 @@
                     android:textSize="7dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/poppins_semibold"
-                    android:backgroundTint="#aa34eb3a"/>
+                    android:backgroundTint="#aa34eb3a"
+                    android:enabled="@{canReg}" />
             </LinearLayout>
 
         </LinearLayout>

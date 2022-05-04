@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="message"
+            type="com.nvt.bloodbank.dto.Chats" />
+    </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/receive"
         android:layout_width="wrap_content"
@@ -16,13 +22,13 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/profile"
+                android:src="@drawable/chat_bot"
                 android:layout_marginLeft="5dp"
                 android:layout_gravity="center"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="message"
+                android:text="@{message.message}"
                 android:layout_gravity="center"
                 android:fontFamily="@font/poppins_semibold"
                 android:layout_marginLeft="10dp"
@@ -38,7 +44,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="message"
+            android:text="@{message.message}"
             android:layout_gravity="end"
             android:fontFamily="@font/poppins_semibold"
             android:layout_marginRight="10dp"
@@ -47,3 +53,4 @@
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
+</layout>

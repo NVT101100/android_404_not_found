@@ -11,11 +11,11 @@ import com.nvt.bloodbank.dto.Certificates
 class CertAdapter:ListAdapter<Certificates,CertAdapter.CertViewHolder>(CertDiffUtilCallBack()) {
     class CertDiffUtilCallBack:DiffUtil.ItemCallback<Certificates>(){
         override fun areItemsTheSame(oldItem: Certificates, newItem: Certificates): Boolean {
-            TODO("Not yet implemented")
+            return oldItem.date == newItem.date
         }
 
         override fun areContentsTheSame(oldItem: Certificates, newItem: Certificates): Boolean {
-            TODO("Not yet implemented")
+            return oldItem == newItem
         }
     }
     class CertViewHolder private constructor(var binding:CertItemBinding):RecyclerView.ViewHolder(binding.root) {
@@ -27,7 +27,7 @@ class CertAdapter:ListAdapter<Certificates,CertAdapter.CertViewHolder>(CertDiffU
             }
         }
         fun binding(item:Certificates){
-
+            binding.certItem = item
         }
     }
 
@@ -36,6 +36,7 @@ class CertAdapter:ListAdapter<Certificates,CertAdapter.CertViewHolder>(CertDiffU
     }
 
     override fun onBindViewHolder(holder: CertViewHolder, position: Int) {
-
+        val item = getItem(position)
+        holder.binding(item)
     }
 }

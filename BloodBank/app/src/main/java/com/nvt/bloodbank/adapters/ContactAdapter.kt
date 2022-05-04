@@ -2,21 +2,25 @@ package com.nvt.bloodbank.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.nvt.bloodbank.R
+import com.nvt.bloodbank.activities.MainActivity
 import com.nvt.bloodbank.databinding.ContactItemBinding
-import com.nvt.bloodbank.dto.Hospitals
+import com.nvt.bloodbank.dto.AppearContact
+import com.nvt.bloodbank.fragments.ContactDirections
 
 class ContactAdapter :
-    ListAdapter<Hospitals, ContactAdapter.ContactViewHolder>(ContactDiffUtilCallBack()) {
-    class ContactDiffUtilCallBack : DiffUtil.ItemCallback<Hospitals>() {
-        override fun areContentsTheSame(oldItem: Hospitals, newItem: Hospitals): Boolean {
-            TODO("Not yet implemented")
+    ListAdapter<AppearContact, ContactAdapter.ContactViewHolder>(ContactDiffUtilCallBack()) {
+    class ContactDiffUtilCallBack : DiffUtil.ItemCallback<AppearContact>() {
+        override fun areContentsTheSame(oldItem: AppearContact, newItem: AppearContact): Boolean {
+            return oldItem == newItem
         }
 
-        override fun areItemsTheSame(oldItem: Hospitals, newItem: Hospitals): Boolean {
-            TODO("Not yet implemented")
+        override fun areItemsTheSame(oldItem: AppearContact, newItem: AppearContact): Boolean {
+            return oldItem.hospName == newItem.hospName
         }
     }
 
@@ -28,15 +32,21 @@ class ContactAdapter :
                 val binding = ContactItemBinding.inflate(layoutInflater, parent, false)
                 return ContactAdapter.ContactViewHolder(binding)
             }
-
-            fun binding(item: Hospitals) {
-
-            }
+        }
+        fun binding(item: AppearContact) {
+            binding.appearContact = item
         }
     }
 
     override fun onBindViewHolder(holder: ContactViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val item = getItem(position)
+        holder.binding(item)
+        holder.binding.contactItem.setOnClickListener {
+            val mainAct = holder.itemView.context as MainActivity
+            val controller = Navigation.findNavController(mainAct.findViewById(R.id.nav_host))
+            val action = ContactDirections.contactToChatting(item)
+            controller.navigate(action)
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactViewHolder {

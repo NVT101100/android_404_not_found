@@ -2864,6 +2864,7 @@ id btnCovidCert
 id btnDonatedCert
 id btnEdit
 id btnLogin
+id btnSend
 id btnSignup
 id buttonPanel
 id cache_measures
@@ -2876,6 +2877,7 @@ id centerInside
 id center_horizontal
 id center_vertical
 id certImg
+id certName
 id chain
 id chain2
 id chains
@@ -2901,6 +2903,7 @@ id compress
 id confirm_button
 id constraint
 id contact
+id contactItem
 id contact_to_chatting
 id container
 id content
@@ -3046,6 +3049,7 @@ id imageView1
 id immediateStop
 id included
 id info
+id inputMsg
 id insuranceNumber
 id invisible
 id inward
@@ -3070,6 +3074,7 @@ id listCert
 id listEvent
 id listHospitalContact
 id listMode
+id listMsg
 id listSearch
 id list_item
 id load_image

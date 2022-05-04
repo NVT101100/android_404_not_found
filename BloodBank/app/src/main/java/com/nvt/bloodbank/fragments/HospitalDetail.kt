@@ -38,7 +38,6 @@ class HospitalDetail:Fragment() {
         val runnable = object : Runnable {
             override fun run() {
                 var nextPage = binding.bloodDetailPage.currentItem
-                Log.d("check","${nextPage}")
                 if(nextPage == adapter.count-1) nextPage = 0
                 else nextPage++
                 binding.bloodDetailPage.setCurrentItem(nextPage,true)

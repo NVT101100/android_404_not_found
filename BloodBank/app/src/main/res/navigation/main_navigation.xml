@@ -156,6 +156,11 @@
         android:id="@+id/chatting"
         android:name="com.nvt.bloodbank.fragments.Chatting"
         tools:layout="@layout/chatting">
+        <argument
+            android:name="chatWith"
+            android:defaultValue="@null"
+            app:argType="com.nvt.bloodbank.dto.AppearContact"
+            app:nullable="true"/>
 
     </fragment>
     <fragment

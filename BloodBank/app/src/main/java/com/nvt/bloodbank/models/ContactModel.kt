@@ -13,27 +13,47 @@ import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
 import com.nvt.bloodbank.Constants
 import com.nvt.bloodbank.bldGrp
+import com.nvt.bloodbank.dto.AppearContact
 import com.nvt.bloodbank.dto.Hospitals
+import com.rd.animation.data.Value
 
-class ContactModel:ViewModel() {
+class ContactModel : ViewModel() {
     private val database = Firebase.database(Constants.databaseURL).reference
-    private val auth = Firebase.auth
-    private  val _listContact = MutableLiveData<List<Hospitals>>()
-    val listContac : LiveData<List<Hospitals>>
-    get() = _listContact
-     fun Init(){
-         val child = database.child("hospitals").orderByChild("hospitalBlood/"+bldGrp.valueOf("APos").value+"/ready").ref
-             child.orderByValue().equalTo(auth.currentUser?.uid).addListenerForSingleValueEvent(object:ValueEventListener{
-                 override fun onDataChange(snapshot: DataSnapshot) {
-                     //val hospitals = snapshot.getValue<List<Hospitals>>()
-                     //_listContact.value = hospitals!!
-                     Log.d("check","${snapshot.getValue()}")
-                 }
+    private val auth = Firebase.auth.currentUser
+    private val _listContact = MutableLiveData<List<AppearContact>>()
+    val listContact: LiveData<List<AppearContact>>
+        get() = _listContact
+    private val _listHospId = MutableLiveData<List<String>>()
+    val listHospId : LiveData<List<String>>
+    get() = _listHospId
 
-                 override fun onCancelled(error: DatabaseError) {
-                     TODO("Not yet implemented")
-                 }
+    fun Init() {
+        database.child("contacts").child(auth!!.uid)
+            .addListenerForSingleValueEvent(object : ValueEventListener {
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    var listResult = ArrayList<String>()
+                    snapshot.children.forEach {
+                        if(it.key != null) listResult.add(it.key!!)
+                    }
+                    _listHospId.value = listResult
+                }
 
-             })
-     }
+                override fun onCancelled(error: DatabaseError) {
+
+                }
+
+            })
+    }
+    fun getListHosp(){
+        var contacts =  ArrayList<AppearContact>()
+        for(s:String in _listHospId.value!!){
+            var contact = AppearContact()
+            contact.hospId = s
+            database.child("hospitals/$s/hospitalName").get().addOnSuccessListener {
+                contact.hospName = it.value.toString()
+                contacts.add(contact)
+                _listContact.value = contacts
+            }
+        }
+    }
 }

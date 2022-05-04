@@ -70,7 +70,6 @@ class MapFragment:Fragment(),OnMapReadyCallback,LocationListener {
     }
 
     override fun onLocationChanged(p0: Location) {
-        val eventDetails = args.eventPosition
         val mypos = LatLng(currentLocation.latitude,currentLocation.longitude)
         mMap.addMarker(MarkerOptions().position(mypos))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(mypos))

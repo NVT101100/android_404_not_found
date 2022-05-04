@@ -36,6 +36,9 @@ class Event:Fragment() {
         val lm = LinearLayoutManager(context)
         binding.listEvent.layoutManager = lm
         binding.listEvent.adapter = eventAdapter
+        model.userState.observe(viewLifecycleOwner) {
+
+        }
     }
 
 }

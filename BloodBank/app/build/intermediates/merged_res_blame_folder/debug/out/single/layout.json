@@ -20,12 +20,12 @@
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\event.xml"
     },
     {
-        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contact.xml",
-        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\contact.xml"
-    },
-    {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_info.xml",
         "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\activity_add_info.xml"
+    },
+    {
+        "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contact.xml",
+        "source": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\src\\main\\res\\layout\\contact.xml"
     },
     {
         "merged": "E:\\NVT\\LT\\Android\\android_404_not_found\\BloodBank\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\search_blood_item.xml",

@@ -1,10 +1,12 @@
 package com.nvt.bloodbank.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
+import androidx.databinding.adapters.SearchViewBindingAdapter
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -34,6 +36,20 @@ class SearchFragment:Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         model.Init()
+        binding.searchContent.setOnQueryTextListener(object:SearchView.OnQueryTextListener {
+            @SuppressLint("RestrictedApi")
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                if (query != null) {
+                    model.search(query)
+                }
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                model.resetList()
+                return true
+            }
+        })
         model.listHospital.observe(viewLifecycleOwner, Observer {
             adapter.submitList(it)
         })

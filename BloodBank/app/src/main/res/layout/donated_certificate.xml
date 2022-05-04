@@ -39,7 +39,7 @@
                     android:layout_gravity="center">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profileImg"
+                        android:id="@+id/certImg"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -67,14 +67,13 @@
                             android:layout_marginTop="10dp">
 
                             <TextView
-                                android:id="@+id/textView2"
+                                android:id="@+id/certName"
                                 android:layout_width="340dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:fontFamily="@font/poppins_semibold"
                                 android:gravity="center"
                                 android:layout_marginTop="30dp"
-                                android:text="Full name"
                                 android:textColor="@color/black"/>
 
                             <androidx.recyclerview.widget.RecyclerView

@@ -11,8 +11,8 @@ enum class bldGrp(val value:Int) {
     BNeg(5),
     OPos(6),
     ONeg(7),
-    RhPos(8),
-    RhNeg(9)
+    RHPos(8),
+    RHNeg(9)
 }
 
 object Constants {
