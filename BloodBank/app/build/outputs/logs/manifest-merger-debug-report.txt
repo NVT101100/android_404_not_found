@@ -29,7 +29,7 @@ MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\ASUS\.gra
 MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\369b2f6ef8454738a1dc4315cf70933f\transformed\navigation-common-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\ad764f8ffa658303b39daf334fc1e020\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\81aaf6614d7637451a9fe7c9f4687b7a\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\33b8bc8d95feef11cd1b6b3171b55ad0\transformed\jetified-pageindicatorview-0.2.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\192c891c1ec698dfa9dddb07d9675d38\transformed\jetified-pageindicatorview-0.2.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\b25cdaf0ee321893885cff23a1d4d716\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:21.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\716c87407606e4496e98dcc9df66eeaa\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:17:1-73:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0bf1ffe3a51614b8dd6a3910984f315\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -74,7 +74,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\e3266743110dad53c5518cbabdc5c9f6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\401a2b57f07e95a9e290de43aa1eacf3\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\789d6fc3250282ea5a96fb9b6c3922a7\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\ee9721633e31c321ac79f6730de1143d\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4b472ee7b630237b9cbdf2a0e3f4e327\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\ASUS\.gradle\caches\transforms-3\fa5cbbee468298792ddc5381728de504\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\4ce8b50099ecaebef199ff02b849c230\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\cd187918841b944a75be00b4cd5b9783\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -272,8 +272,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\aa729b0429309b1aaaafe2a6166e755a\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\e3266743110dad53c5518cbabdc5c9f6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\e3266743110dad53c5518cbabdc5c9f6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\ee9721633e31c321ac79f6730de1143d\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\ee9721633e31c321ac79f6730de1143d\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4b472ee7b630237b9cbdf2a0e3f4e327\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4b472ee7b630237b9cbdf2a0e3f4e327\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0d3d4c3a47447c31ece0f746ab6d93a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0d3d4c3a47447c31ece0f746ab6d93a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\9ce45015acf473e4820b7ab65ef589ba\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
@@ -370,8 +370,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\ASUS\.gr
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\ad764f8ffa658303b39daf334fc1e020\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\81aaf6614d7637451a9fe7c9f4687b7a\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\81aaf6614d7637451a9fe7c9f4687b7a\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\33b8bc8d95feef11cd1b6b3171b55ad0\transformed\jetified-pageindicatorview-0.2.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\33b8bc8d95feef11cd1b6b3171b55ad0\transformed\jetified-pageindicatorview-0.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\192c891c1ec698dfa9dddb07d9675d38\transformed\jetified-pageindicatorview-0.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\192c891c1ec698dfa9dddb07d9675d38\transformed\jetified-pageindicatorview-0.2.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\b25cdaf0ee321893885cff23a1d4d716\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\b25cdaf0ee321893885cff23a1d4d716\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\716c87407606e4496e98dcc9df66eeaa\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:21:5-44
@@ -460,8 +460,8 @@ MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\ASUS\.gradle\caches\tran
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\401a2b57f07e95a9e290de43aa1eacf3\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\789d6fc3250282ea5a96fb9b6c3922a7\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\789d6fc3250282ea5a96fb9b6c3922a7\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\ee9721633e31c321ac79f6730de1143d\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\ee9721633e31c321ac79f6730de1143d\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4b472ee7b630237b9cbdf2a0e3f4e327\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4b472ee7b630237b9cbdf2a0e3f4e327\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\ASUS\.gradle\caches\transforms-3\fa5cbbee468298792ddc5381728de504\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\ASUS\.gradle\caches\transforms-3\fa5cbbee468298792ddc5381728de504\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\4ce8b50099ecaebef199ff02b849c230\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
